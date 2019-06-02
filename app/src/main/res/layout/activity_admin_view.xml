@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abb"
+    tools:context=".admin_view">
+
+    <Button
+        android:id="@+id/btn_disp"
+        android:layout_width="233dp"
+        android:background="@color/try2"
+        android:layout_height="64dp"
+        android:layout_alignParentStart="true"
+        android:textSize="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="456dp"
+        android:text="Show Data" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:textSize="32dp"
+        android:background="@color/try2"
+        android:layout_width="233dp"
+        android:layout_height="64dp"
+        android:layout_alignStart="@+id/text_pass"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="94dp"
+        android:layout_marginBottom="348dp"
+        android:onClick="onUpdate"
+        android:text="Update Data" />
+
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="233dp"
+        android:background="@color/try2"
+        android:layout_height="64dp"
+        android:textSize="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="439dp"
+        android:onClick="onDelete"
+        android:text="Delete Data" />
+
+</RelativeLayout>

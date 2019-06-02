@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student_view">
+
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="192dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="622dp"
+        android:text="WELCOME"
+        android:textAlignment="center"
+        android:textSize="32dp" />
+
+    <EditText
+        android:id="@+id/t2"
+        android:layout_width="255dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginBottom="522dp"
+        android:hint="Please Enter you ID again!" />
+
+    <EditText
+        android:id="@+id/editTextStudent"
+        android:layout_width="357dp"
+        android:layout_height="68dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginBottom="387dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/buttonStudent"
+        android:layout_width="183dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/try2"
+        android:layout_marginStart="122dp"
+        android:layout_marginBottom="283dp"
+        android:onClick="feedback"
+        android:text="SUBMIT FEEDBACK" />
+</RelativeLayout>

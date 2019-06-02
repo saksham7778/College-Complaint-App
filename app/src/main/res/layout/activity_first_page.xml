@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/q"
+    tools:context=".first_page">
+
+    <ImageView
+        android:layout_width="182dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/download" />
+
+    <Button
+        android:id="@+id/buttonAdmin"
+        android:layout_width="411dp"
+        android:textSize="22dp"
+        android:layout_height="88dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="444dp"
+        android:background="@color/try1"
+        android:text="CLICK HERE TO LOGIN AS A ADMIN" />
+
+    <Button
+        android:id="@+id/buttonStudents"
+        android:layout_width="298dp"
+        android:layout_height="69dp"
+        android:textSize="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="225dp"
+        android:background="@color/try1"
+        android:text="STUDENT" />
+
+    <Button
+        android:id="@+id/buttonTeachers"
+        android:layout_width="298dp"
+        android:layout_height="69dp"
+        android:textSize="32dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginTop="334dp"
+        android:background="@color/try1"
+        android:text="TEACHERS" />
+
+</RelativeLayout>

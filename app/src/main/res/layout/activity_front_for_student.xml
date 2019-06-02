@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qwert"
+    tools:context=".front_for_student">
+
+    <TextView
+        android:id="@+id/text_name1"
+        android:layout_width="99dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="222dp"
+        android:text="ID"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_pass1"
+        android:layout_width="116dp"
+        android:layout_height="61dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="288dp"
+        android:text="Password"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edit_name1"
+        android:layout_width="258dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="226dp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edit_pass1"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_pass"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="295dp" />
+
+    <Button
+        android:id="@+id/button_login1"
+        android:background="@color/try2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="398dp"
+        android:onClick="onLogin"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/button_login2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/try2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="508dp"
+        android:layout_marginEnd="142dp"
+        android:onClick="onRegister"
+        android:text="REGISTER" />
+
+
+</RelativeLayout>
